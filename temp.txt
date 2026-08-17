@@ -1,0 +1,6 @@
+    if (isGroundedDown) {
+        // Enforce Ring-out / Dead rule: "al caer de zona de pelea ya no se levante"
+        const isOffStage = p.position < -8.0 || p.position > 8.0 || p.y < -0.5;
+        if (p.hp <= 0 || isOffStage) return; // Cannot get up if dead or fell off stage!
+
+        layingFlatStartRef.current.player = 0; // Reset floor start time

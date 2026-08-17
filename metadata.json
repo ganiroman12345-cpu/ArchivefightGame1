@@ -1,0 +1,8 @@
+{
+  "name": "Remix Remix Remix Remix dl  47",
+  "description": "A 3D arcade fighting game optimized for mobile. Features touch controls, dynamic GenAI-powered character intros, and fast-paced combat action.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
